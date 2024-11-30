@@ -1,5 +1,5 @@
 {
-  "name": "ts-nextjs-tailwind-starter",
+  "name": "acheivers-org-2.0",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "clsx": "^2.0.0",
+    "embla-carousel-react": "^8.5.1",
     "lucide-react": "^0.438.0",
     "next": "^14.2.15",
     "react": "^18.2.0",
