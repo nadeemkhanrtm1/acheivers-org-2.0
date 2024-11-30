@@ -17,6 +17,9 @@ export default {
           50: '#F6F8F9',
           900: '#FFFFFF',
         },
+        grey: {
+          300: '#EBEDED'
+        },
         dark: '#222222',
       },
       keyframes: {

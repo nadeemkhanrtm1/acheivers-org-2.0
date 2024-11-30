@@ -37,7 +37,7 @@ export default function HomePage() {
     },
   ];
   return (
-    <main className='bg-primary-50 px-4'>
+    <main>
       <header className='h-12'>Header</header>
       <section>
         <EmblaCarousel slidesArray={sliderArray} />

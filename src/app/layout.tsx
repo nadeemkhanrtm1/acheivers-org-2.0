@@ -68,7 +68,7 @@ export default function RootLayout({
           rel='stylesheet'
         />
       </head>
-      <body>{children}</body>
+      <body className='bg-primary-50 px-4'>{children}</body>
     </html>
   );
 }
