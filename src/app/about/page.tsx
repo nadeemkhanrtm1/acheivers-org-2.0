@@ -1,16 +1,18 @@
 'use client';
+import Link from 'next/link';
 import React from 'react';
-import IntegrityIcon from '~/icons/integrity.svg';
-import InnovationIcon from '~/icons/innovation.svg';
-import CustomerCommitmentIcon from '~/icons/customer-cmmitment.svg';
+
+import Footer from '@/components/Footer/Footer';
 import NextImage from '@/components/NextImage';
-import AboutUsImage from '~/images/about-us.webp';
-import DummyImage1 from '~/images/leadership-roles.webp';
+
 import TwoThousandIcon from '~/icons/2000.svg';
 import TwoThousandFive from '~/icons/2005.svg';
 import TwoThousandFifteen from '~/icons/2015.svg';
-import Link from 'next/link';
-import Footer from '@/components/Footer/Footer';
+import CustomerCommitmentIcon from '~/icons/customer-cmmitment.svg';
+import InnovationIcon from '~/icons/innovation.svg';
+import IntegrityIcon from '~/icons/integrity.svg';
+import AboutUsImage from '~/images/about-us.webp';
+import DummyImage1 from '~/images/leadership-roles.webp';
 
 const page = () => {
   const cardDetails = [

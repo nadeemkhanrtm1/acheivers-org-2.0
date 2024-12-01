@@ -18,7 +18,7 @@ export default {
           900: '#FFFFFF',
         },
         grey: {
-          300: '#EBEDED'
+          300: '#EBEDED',
         },
         dark: '#222222',
       },

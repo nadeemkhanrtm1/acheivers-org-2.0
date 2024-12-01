@@ -1,8 +1,6 @@
 import React from 'react';
 
-type Props = {};
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <section>
       <h1 className='mt-6 mb-2'>Welcome to Our Privacy and Terms Page</h1>
