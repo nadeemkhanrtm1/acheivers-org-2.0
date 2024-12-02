@@ -21,6 +21,9 @@ export default {
           300: '#EBEDED',
         },
         dark: '#222222',
+        blue: {
+          50: '#DEF7FC',
+        },
       },
       keyframes: {
         flicker: {
