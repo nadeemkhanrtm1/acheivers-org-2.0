@@ -3,23 +3,25 @@ import React from 'react';
 
 import NextImage from '@/components/NextImage';
 
-import SuccessStoryImage1 from '~/images/success-story-1.webp';
+import HundredPlusImage from '~/images/100_plus.jpeg';
+import VikasSwamiImage from '~/images/vikas-swami-img.jpeg';
+import ZoyaKhanImage from '~/images/zoya-khan.jpeg';
 
 const OurSuccessStories = () => {
   const cardDetails = [
     {
-      image: SuccessStoryImage1,
-      title: 'John Doe',
+      image: VikasSwamiImage,
+      title: 'Vikas Swami',
       subTitle: 'Dream job with flexible hours',
     },
     {
-      image: SuccessStoryImage1,
-      title: 'John Doe',
+      image: ZoyaKhanImage,
+      title: 'Zoya Khan',
       subTitle: 'Dream job with flexible hours',
     },
     {
-      image: SuccessStoryImage1,
-      title: 'John Doe',
+      image: HundredPlusImage,
+      title: 'Others',
       subTitle: 'Dream job with flexible hours',
     },
   ];
@@ -37,7 +39,10 @@ const OurSuccessStories = () => {
                   width={100}
                   height={100}
                   alt={details?.title}
-                  classNames={{ image: 'w-full rounded-t-lg' }}
+                  unoptimized
+                  classNames={{
+                    image: 'w-full rounded-t-lg h-full object-cover',
+                  }}
                 />
                 <div className='p-4 flex flex-col'>
                   <span className='text-lg font-bold'>{details?.title}</span>

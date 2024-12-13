@@ -1,7 +1,7 @@
 export const siteConfig = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'Achievers Org: Discover New Paths to Success and Shape Your Future',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
+    'Become part of a dynamic community where trust, growth, and opportunity come together. Whether your goal is financial independence or building a legacy of personal success, we offer the tools and support to empower your journey. Take the first step today, and let’s create a brighter future together.',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+  url: 'https://acheiversorg.com',
 };

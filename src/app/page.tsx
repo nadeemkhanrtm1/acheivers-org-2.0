@@ -40,7 +40,6 @@ export default function HomePage() {
   ];
   return (
     <main>
-      <Header />
       <section>
         <HeadLine />
         <EmblaCarousel slidesArray={sliderArray} />

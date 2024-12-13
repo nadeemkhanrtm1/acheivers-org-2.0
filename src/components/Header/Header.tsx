@@ -76,7 +76,7 @@ const Header: React.FC = () => {
         </span>
       </div>
       <div className='bg-black p-1.5 rounded-md text-white-50 text-xs'>
-        Be Acheivers -&gt;
+        Be Acheivers
       </div>
     </header>
   );
