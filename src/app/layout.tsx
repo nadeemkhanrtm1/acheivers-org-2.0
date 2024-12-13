@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { IconURL } from 'next/dist/lib/metadata/types/metadata-types';
 import * as React from 'react';
 
 import '@/styles/globals.css';
@@ -7,6 +8,8 @@ import '@/styles/colors.css';
 import Header from '@/components/Header/Header';
 
 import { siteConfig } from '@/constant/config';
+
+import Icon from '~/favicon/favicon.ico';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -17,7 +20,7 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   robots: { index: true, follow: true },
   icons: {
-    icon: '/favicon/favicon.ico',
+    icon: Icon as IconURL,
     shortcut: '/favicon/favicon-16x16.png',
     apple: '/favicon/apple-touch-icon.png',
   },

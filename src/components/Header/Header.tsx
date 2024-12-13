@@ -75,9 +75,9 @@ const Header: React.FC = () => {
           </div>
         </span>
       </div>
-      <div className='bg-black p-1.5 rounded-md text-white-50 text-xs'>
+      <Link href="/get-started" className='bg-black p-1.5 rounded-md text-white-50 text-xs'>
         Be Acheivers
-      </div>
+      </Link>
     </header>
   );
 };
