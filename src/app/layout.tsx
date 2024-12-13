@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import { IconURL } from 'next/dist/lib/metadata/types/metadata-types';
 import * as React from 'react';
 
 import '@/styles/globals.css';
@@ -8,8 +7,6 @@ import '@/styles/colors.css';
 import Header from '@/components/Header/Header';
 
 import { siteConfig } from '@/constant/config';
-
-import Icon from '~/favicon/favicon.ico';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -20,7 +17,7 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   robots: { index: true, follow: true },
   icons: {
-    icon: Icon as IconURL,
+    icon: 'favicon/favicon.ico',
     shortcut: '/favicon/favicon-16x16.png',
     apple: '/favicon/apple-touch-icon.png',
   },
@@ -41,12 +38,12 @@ export const metadata: Metadata = {
     images: [`${siteConfig.url}/images/og.jpg`],
     // creator: '@th_clarence',
   },
-  // authors: [
-  //   {
-  //     name: 'Theodorus Clarence',
-  //     url: 'https://theodorusclarence.com',
-  //   },
-  // ],
+  authors: [
+    {
+      name: 'Team Acheivers Organisation',
+      url: 'https://acheiversorg.com',
+    },
+  ],
 };
 
 export default function RootLayout({
