@@ -4,6 +4,7 @@ import * as React from 'react';
 import '@/styles/globals.css';
 import '@/styles/colors.css';
 
+import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 
 import { siteConfig } from '@/constant/config';
@@ -65,9 +66,10 @@ export default function RootLayout({
           rel='stylesheet'
         />
       </head>
-      <body className='bg-primary-50 px-4'>
+      <body className='bg-primary-50 px-4 max-w-screen-sm mx-auto'>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

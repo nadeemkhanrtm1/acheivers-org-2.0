@@ -99,31 +99,21 @@ const page = () => {
         <tbody>
           <tr className='border-b border-gray-300'>
             <td className='py-2 text-gray-800 font-medium'>Phone Number</td>
-            <td className='py-2 text-gray-700'>+1 (123) 456-7890</td>
+            <td className='py-2 text-gray-700'>+91 7231873475</td>
           </tr>
           <tr className='border-b border-gray-300'>
-            <td className='py-2 text-gray-800 font-medium'>Email Address</td>
-            <td className='py-2 text-gray-700'>example@email.com</td>
+            <td className='py-2 text-gray-800 font-medium'>Email Address (founder and maintainer)</td>
+            <td className='py-2 text-gray-700'>nadeemkhanrtm@gmail.com</td>
           </tr>
           <tr>
             <td className='py-2 text-gray-800 font-medium'>Office Address</td>
             <td className='py-2 text-gray-700'>
-              123 Main St, Springfield123 Main St, Springfield123 Main St,
-              Springfield
+              Acheivers Org 1st Floor, acheivers Org, Benar Road, Jhotwara
+              Jaipur, Rajasthan, 302012
             </td>
           </tr>
         </tbody>
       </table>
-
-      <h2 className='text-2xl mt-6 mb-2'>Find Us Here</h2>
-      <iframe
-        className='w-full h-full border-0'
-        src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14226.506693427822!2d75.72651331229285!3d26.94704730404793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db35295964ba1%3A0x4115afea77b359a7!2sThe%20Digital%20Achiever!5e0!3m2!1sen!2sin!4v1725568812694!5m2!1sen!2sin'
-        style={{ border: 0 }}
-        allowFullScreen
-        loading='lazy'
-        referrerPolicy='no-referrer-when-downgrade'
-      ></iframe>
       <Footer />
     </>
   );
