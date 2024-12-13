@@ -65,9 +65,15 @@ export default function RootLayout({
           href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=optional'
           rel='stylesheet'
         />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6180264162958606"
-     crossOrigin="anonymous"></script>
-     <meta name="google-adsense-account" content="ca-pub-6180264162958606"></meta>
+        <script
+          async
+          src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6180264162958606'
+          crossOrigin='anonymous'
+        ></script>
+        <meta
+          name='google-adsense-account'
+          content='ca-pub-6180264162958606'
+        ></meta>
       </head>
       <body className='bg-primary-50 px-4 max-w-screen-sm mx-auto'>
         <Header />
