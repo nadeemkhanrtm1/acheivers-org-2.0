@@ -1,7 +1,9 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
+import Logo from '~/favicon/android-icon-192x192.png';
 import CrossIcon from '~/icons/cross.svg';
 import HamburgerIcon from '~/icons/hamburger-menu.svg';
 
@@ -16,6 +18,10 @@ const Header: React.FC = () => {
       name: 'Home',
       href: '/',
     },
+    // {
+    //   name: 'Blogs',
+    //   href: '/blogs'
+    // },
     {
       name: 'About Us',
       href: '/about',
@@ -55,11 +61,17 @@ const Header: React.FC = () => {
 
           <div ref={menuRef}>
             {isOpen && (
-              <div className='fixed top-0 w-10/12 bg-white-50 h-screen p-4 left-0 z-50'>
-                <ul>
+              <div className='fixed top-0 max-w-screen-sm w-10/12 bg-white-50 h-screen p-4 z-50'>
+                <div className='flex justify-between items-center mb-5'>
+                  <Image src={Logo} alt='Logo' className='w-20 h-20 ' />
+                  <span className='h-5 w-5'>
+                    <CrossIcon />
+                  </span>
+                </div>
+                <ul className=''>
                   {listItems?.map((item, index) => {
                     return (
-                      <li key={index} className='py-2'>
+                      <li key={index} className='py-2 border border-b-2 border-t-0 border-l-0 border-r-0'>
                         <Link
                           href={item?.href}
                           className='text-lg font-semibold'
@@ -75,7 +87,10 @@ const Header: React.FC = () => {
           </div>
         </span>
       </div>
-      <Link href="/get-started" className='bg-black p-1.5 rounded-md text-white-50 text-xs'>
+      <Link
+        href='/get-started'
+        className='bg-black p-1.5 rounded-md text-white-50 text-xs'
+      >
         Be Acheivers
       </Link>
     </header>

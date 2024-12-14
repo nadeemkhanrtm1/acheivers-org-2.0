@@ -8,7 +8,7 @@ const Footer = () => {
         <p className='text-md text-center'>
           © 2019 - 2024 Opportunity Provider. All rights reserved.
         </p>
-        <Link href='/about-us' className='text-xs text-blue-600 underline'> About Us</Link>
+        <Link href='/about' className='text-xs text-blue-600 underline'> About Us</Link>
         <Link href='/contact-us' className='text-xs text-blue-600 underline'>Contact Us</Link>
         <Link href='/privacy-and-terms' className='text-xs text-blue-600 underline'>Privacy Policy</Link>
         <Link href='/privacy-and-terms' className='text-xs text-blue-600 underline'>Terms and Conditions</Link>
