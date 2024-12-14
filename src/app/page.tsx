@@ -48,7 +48,6 @@ export default function HomePage() {
         <HowItWorks />
         <WhyChooseUs />
       </section>
-
     </main>
   );
 }
