@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Script from 'next/script';
 import * as React from 'react';
 
 import '@/styles/globals.css';
@@ -74,6 +75,23 @@ export default function RootLayout({
           name='google-adsense-account'
           content='ca-pub-6180264162958606'
         ></meta>
+
+        <Script
+          async
+          src='https://www.googletagmanager.com/gtag/js?id=G-J0EGFNS2GT'
+        ></Script>
+        <Script id="google-tag-manager-datalayer">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-J0EGFNS2GT");
+        
+        `}
+        </Script>
       </head>
       <body className='bg-primary-50 px-4 max-w-screen-sm mx-auto'>
         <Header />
