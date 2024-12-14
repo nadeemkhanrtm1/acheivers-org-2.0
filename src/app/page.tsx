@@ -1,7 +1,5 @@
 import { EmblaCarousel } from '@/components/carousel/carousel.component';
 import ExploreOurTopOpportunities from '@/components/ExploreOurTopOpportunities/ExploreOurTopOpportunities';
-import Footer from '@/components/Footer/Footer';
-import Header from '@/components/Header/Header';
 import HeadLine from '@/components/HeadLine/HeadLine';
 import HowItWorks from '@/components/HowItWorks/HowItWorks';
 import OurSuccessStories from '@/components/OurSuccessStories/OurSuccessStories';

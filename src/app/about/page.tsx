@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import React from 'react';
 
-import Footer from '@/components/Footer/Footer';
 import NextImage from '@/components/NextImage';
 
 import TwoThousandIcon from '~/icons/2000.svg';
@@ -151,8 +150,6 @@ const page = () => {
       >
         Get in Touch
       </Link>
-
-      <Footer />
     </section>
   );
 };

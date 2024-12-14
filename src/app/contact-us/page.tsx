@@ -1,5 +1,3 @@
-import Footer from '@/components/Footer/Footer';
-
 const page = () => {
   return (
     <>
@@ -114,7 +112,6 @@ const page = () => {
           </tr>
         </tbody>
       </table>
-      <Footer />
     </>
   );
 };
