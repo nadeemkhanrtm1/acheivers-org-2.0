@@ -3,6 +3,7 @@ import ExploreOurTopOpportunities from '@/components/ExploreOurTopOpportunities/
 import HeadLine from '@/components/HeadLine/HeadLine';
 import HillTopAds from '@/components/HillTopAds/HillTopAds';
 import HillTopAdsInPagePush from '@/components/HillTopAds-InPagePush/HillTopAds-InPagePush';
+import HillTopAdsPopunder from '@/components/HillTopAds-Popunder/HillTopAds-Popunder';
 import HowItWorks from '@/components/HowItWorks/HowItWorks';
 import OurSuccessStories from '@/components/OurSuccessStories/OurSuccessStories';
 import WhyChooseUs from '@/components/WhyChooseUs/WhyChooseUs';
@@ -45,7 +46,7 @@ export default function HomePage() {
         <HeadLine />
         <HillTopAds />
         <EmblaCarousel slidesArray={sliderArray} />
-
+        <HillTopAdsPopunder />
         <ExploreOurTopOpportunities />
         <OurSuccessStories />
         <HowItWorks />
