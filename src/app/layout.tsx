@@ -66,21 +66,15 @@ export default function RootLayout({
           href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=optional'
           rel='stylesheet'
         />
-        <script
-          async
-          src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6180264162958606'
-          crossOrigin='anonymous'
-        ></script>
         <meta
-          name='google-adsense-account'
-          content='ca-pub-6180264162958606'
-        ></meta>
-
+          name='aad860add3d7fdbc2230de3fc091bc4db7567bd1'
+          content='aad860add3d7fdbc2230de3fc091bc4db7567bd1'
+        />
         <Script
           async
           src='https://www.googletagmanager.com/gtag/js?id=G-J0EGFNS2GT'
         ></Script>
-        <Script id="google-tag-manager-datalayer">
+        <Script id='google-tag-manager-datalayer'>
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag() {
