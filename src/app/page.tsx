@@ -1,6 +1,7 @@
 import { EmblaCarousel } from '@/components/carousel/carousel.component';
 import ExploreOurTopOpportunities from '@/components/ExploreOurTopOpportunities/ExploreOurTopOpportunities';
 import HeadLine from '@/components/HeadLine/HeadLine';
+import HillTopAds from '@/components/HillTopAds/HillTopAds';
 import HowItWorks from '@/components/HowItWorks/HowItWorks';
 import OurSuccessStories from '@/components/OurSuccessStories/OurSuccessStories';
 import WhyChooseUs from '@/components/WhyChooseUs/WhyChooseUs';
@@ -40,6 +41,7 @@ export default function HomePage() {
     <main>
       <section>
         <HeadLine />
+        <HillTopAds />
         <EmblaCarousel slidesArray={sliderArray} />
         <ExploreOurTopOpportunities />
         <OurSuccessStories />
