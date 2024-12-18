@@ -22,10 +22,10 @@ const Header: React.FC = () => {
     //   name: 'Blogs',
     //   href: '/blogs'
     // },
-    {
-      name: 'Our Process',
-      href: '/our-process'
-    },
+    // {
+    //   name: 'Our Process',
+    //   href: '/our-process'
+    // },
     {
       name: 'About Us',
       href: '/about',
@@ -95,7 +95,7 @@ const Header: React.FC = () => {
         href='/get-started'
         className='bg-black p-1.5 rounded-md text-white-50 text-xs'
       >
-        Be Acheivers
+        Apply Now
       </Link>
     </header>
   );

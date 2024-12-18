@@ -18,7 +18,7 @@ const HeadLine = () => {
         href='/get-started'
         className='bg-slate-900 text-white-50 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center mt-6'
       >
-        Get Started
+        Apply Now
       </Link>
     </div>
   );

@@ -42,11 +42,8 @@ export default function HomePage() {
   return (
     <main>
       <section>
-        <HillTopAdsInPagePush />
         <HeadLine />
-        <HillTopAds />
         <EmblaCarousel slidesArray={sliderArray} />
-        <HillTopAdsPopunder />
         <ExploreOurTopOpportunities />
         <OurSuccessStories />
         <HowItWorks />
